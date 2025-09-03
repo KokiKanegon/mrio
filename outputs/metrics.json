@@ -1,0 +1,79 @@
+{
+  "configuration": {
+    "alpha": 1.0,
+    "beta": 1.0,
+    "gamma": 2.0
+  },
+  "balance_check": {
+    "total_shipments": 1300.0,
+    "total_receipts": 1300.0,
+    "difference": 0.0,
+    "difference_pct": 0.0,
+    "balanced": "True"
+  },
+  "sectors": {
+    "P1": {
+      "convergence": {
+        "iterations": 1000,
+        "converged": false,
+        "max_error": 4.859147935576402e-06,
+        "row_error": 4.859147935576402e-06,
+        "col_error": 1.4210854715202004e-14
+      },
+      "discrepancy": {
+        "row_mae": 3.2394319617878864e-06,
+        "col_mae": 9.473903143468002e-15,
+        "row_rmse": 3.460482993756758e-06,
+        "col_rmse": 1.160311428702309e-14,
+        "row_max_abs": 4.859147935576402e-06,
+        "col_max_abs": 1.4210854715202004e-14,
+        "row_relative_error_pct": 3.236932695607854e-06,
+        "col_relative_error_pct": 9.569599134806402e-15,
+        "total_mae": 1.6197159856308947e-06,
+        "total_rmse": 1.7302415026799362e-06
+      }
+    },
+    "P2": {
+      "convergence": {
+        "iterations": 383,
+        "converged": true,
+        "max_error": 9.477219009568216e-10,
+        "row_error": 9.477219009568216e-10,
+        "col_error": 0.0
+      },
+      "discrepancy": {
+        "row_mae": 6.318146006378811e-10,
+        "col_mae": 0.0,
+        "row_rmse": 7.245935452051164e-10,
+        "col_rmse": 0.0,
+        "row_max_abs": 9.477219009568216e-10,
+        "col_max_abs": 0.0,
+        "row_relative_error_pct": 3.7954401526390594e-10,
+        "col_relative_error_pct": 0.0,
+        "total_mae": 3.1590730031894054e-10,
+        "total_rmse": 3.622967726025582e-10
+      }
+    },
+    "P3": {
+      "convergence": {
+        "iterations": 1000,
+        "converged": false,
+        "max_error": 6.278110768676015e-05,
+        "row_error": 6.278110768676015e-05,
+        "col_error": 2.842170943040401e-14
+      },
+      "discrepancy": {
+        "row_mae": 4.185407179117343e-05,
+        "col_mae": 9.473903143468002e-15,
+        "row_rmse": 4.446152239603248e-05,
+        "col_rmse": 1.6409281590473078e-14,
+        "row_max_abs": 6.278110768676015e-05,
+        "col_max_abs": 2.842170943040401e-14,
+        "row_relative_error_pct": 2.4986794225378797e-05,
+        "col_relative_error_pct": 5.572884202036724e-15,
+        "total_mae": 2.0927035900323666e-05,
+        "total_rmse": 2.223076120622088e-05
+      }
+    }
+  }
+}
